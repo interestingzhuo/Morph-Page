@@ -1,8 +1,8 @@
-# UniPose
+# Morph
 
 This is the repository that contains source code for the [Morph website](https://interestingzhuo.github.io/Morph-Page/).
 
-If you find UniPose useful for your work please cite:
+If you find Morph useful for your work please cite:
 ```
 @article{li2024morph,
   title={Morph: A Motion-free Physics Optimization Framework for Human Motion Generation},
