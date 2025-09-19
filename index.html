@@ -152,17 +152,17 @@
 <!-- demo -->
 <section class="hero teaser">
   <div class="container is-max-desktop">
-    <div class="hero-body">
+    <div class="hero-body" align="middle">
       <!-- 嵌入 SVG 文件 -->
-      <object 
+      <object
         id="teaser" 
         type="image/svg+xml" 
         data="static/images/physic.svg" 
-        style="width: 100%; height: auto;">
+        style="width: 80%; height: auto;">
         Your browser does not support SVG. Please download the file 
         <a href="static/images/physic.svg">here</a>.
       </object>
-      <p align="left">Morph can enhances physical plausibility of human motions without relying on costly real-world motion data.</p>
+      <p align="left">Morph can enhances physical plausibility of human motions without relying on costly real-world motion data, such as ground penetration, leaning backward, interpenetration, foot sliding, floating and unnatural rotation, </p>
     </div>
   </div>
 </section>
@@ -221,6 +221,59 @@
 
 
 <!-- visualization -->
+<section class="section">
+  <div class="container is-max-desktop">
+    <h2 class="title is-3">Visualization</h2>
+    <div class="columns is-centered">
+      <!-- Visual Effects. -->
+      <div class="column">
+        <div class="content">
+          <h3 class="title is-4">Music to Dance</h3>
+          <!-- 嵌入 SVG 文件 -->
+          <object 
+            id="teaser" 
+            type="image/svg+xml" 
+            data="static/images/visualization_for_appendix_a2d.svg" 
+            style="width: 100%; height: auto;">
+            Your browser does not support SVG. Please download the file 
+            <a href="static/images/visualization_for_appendix_a2d.svg">here</a>.
+          </object>
+          <!-- 提示文字 -->
+          <p align="left">
+            Comparison with Bailando on Music-to-Dance task. We mark physically implausible in <font color="red"> red </font> and  <font color="orange">orange</font>. Morph
+            can accurately project the motions into a physically-plausible space.
+          </p>
+        </div>
+      </div>
+      <!--/ Visual Effects. -->
+
+      <!-- Matting. -->
+      <div class="column">
+        <h3 class="title is-4">Text to Motion</h3>
+        <div class="columns is-centered">
+          <div class="column content">
+            <!-- 嵌入 SVG 文件 -->
+            <object 
+              id="teaser" 
+              type="image/svg+xml" 
+              data="static/images/visualization_for_appendix_t2m.svg" 
+              style="width: 100%; height: auto;">
+              Your browser does not support SVG. Please download the file 
+              <a href="static/images/visualization_for_appendix_t2m.svg">here</a>.
+            </object>
+            <!-- 提示文字 -->
+            <p align="left">
+              Comparison with MoMask and Morph on Text-to-Motion task.
+            </p>
+          </div>
+
+        </div>
+      </div>
+    </div>
+    <!--/ Matting. -->
+
+  </div>
+</section>
 
 
 <section class="section" id="BibTeX">
